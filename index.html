@@ -50,10 +50,10 @@
 
       .slide {
         padding-top: 51px;
-        background-image: url("pictures/slide-cover.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center;
+        background-image: url("pictures/ozontech.png"), url("pictures/slide-cover.png");
+        background-repeat: no-repeat, no-repeat;
+        background-size: 135px, 100%;
+        background-position: 100px calc(100% - 17px), center;
       }
 
       .slide.clear {
@@ -188,6 +188,10 @@
     </section>
 
     <section class="slide">
+      <img class="cover w" src="pictures/skillbox.png" alt="" />
+    </section>
+
+    <section class="slide">
       <img class="cover w" src="pictures/jsonapi_youtube.jpg" alt="" />
     </section>
 
@@ -197,10 +201,6 @@
 
     <section class="slide">
       <img class="cover w" src="pictures/maxresdefault.jpg" alt="" />
-    </section>
-
-    <section class="slide">
-      <img class="cover w" src="pictures/skillbox.png" alt="" />
     </section>
 
     <!-- В о себе добавить программный комитет и скиллбокс -->
@@ -245,14 +245,16 @@
       <img class="cover w" src="pictures/tilda.png" alt="" />
     </section>
 
-    <!-- zero block скрином -->
     <section class="slide clear">
       <img class="cover w" src="pictures/zero-block.png" alt="" />
     </section>
 
-    <!-- webflow скрином -->
     <section class="slide clear">
-      <img class="cover w" src="pictures/webflow.png" alt="" />
+      <img class="cover h" src="pictures/ozon-tech-website.png" alt="" />
+    </section>
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/webflow.png" alt="" />
     </section>
 
     <section class="slide clear">
@@ -262,29 +264,6 @@
     <section class="slide">
       <h2 class="shout">Изучайте разные инструменты</h2>
     </section>
-
-    <!-- <section class="slide catalog">
-      <h2>🍏 Грехи дизайнеров</h2>
-      <ol>
-        <li class="next">📄 <b>Хаос</b> в макетах</li>
-        <li class="next">💭 <b>Неоднозначность</b> в макетах</li>
-        <li class="next">🛠 <b>Одержимость</b> творчеством</li>
-        <li class="next">🔗 <b>Забвение</b> важного</li>
-        <li class="next">👴 <b>Мигрировать</b> базу данных</li>
-        <li class="next">👨&zwj;🎨 <b>Вывести</b> новый контент в приложения</li>
-        <li class="next">🆙 <b>Выпустить</b> новый редактор в продакшен</li>
-      </ol>
-    </section>
-
-    <section class="slide catalog">
-      <h2>📆 Каталог грехов</h2>
-      <ol>
-        <li>
-          😨 <mark><b>Хаос</b> в макетах</mark>
-        </li>
-        <li>💭 <b>Неоднозначность</b> в макетах</li>
-      </ol>
-    </section> -->
 
     <!-- приходится это узнавать у заказчика или дизайнера -->
     <section class="slide">
@@ -325,13 +304,28 @@
         <span style="font-size: 1.5em">4</span><br />Не продумывать адаптив
       </h2>
     </section>
+    <!-- Сколько размеров экранов бывает -->
+    <!-- о чём забывает дизайнер, который рисует много адаптивов -->
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/css-cq-caniuse.png" alt="" />
+    </section>
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/container-query-diagram.png" alt="" />
+    </section>
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/container-query-examples.png" alt="" />
+    </section>
+
+    <section class="slide clear" style="background-color: #b1e3d1">
+      <img class="cover w" src="pictures/partners_blog_progressive_enhancement_hero.webp" alt="" />
+    </section>
 
     <section class="slide">
       <h2 class="shout">Продумывайте адаптив</h2>
     </section>
-
-    <!-- Сколько размеров экранов бывает -->
-    <!-- о чём забывает дизайнер, который рисует много адаптивов -->
 
     <!-- mobile first используется -->
     <!-- auto layout позволяет делать респонсив -->
@@ -373,6 +367,74 @@
     </section>
 
     <section class="slide">
+      <h2>@font-face</h2>
+
+      <pre>
+        <code>@font-face {</code>
+        <code>  font-family: "Open Sans";</code>
+        <code>  src: <mark>url("/fonts/OpenSans-Regular-webfont.woff2")</mark> format("woff2");</code>
+        <code>}</code>
+        <code> </code>
+        <code>h1 {</code>
+        <code>  font-family: "Open Sans"</code>
+        <code>}</code>
+      </pre>
+    </section>
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/webfont.avif" alt="" style="height: 90%" />
+    </section>
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/google-fonts.png" alt="" />
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">Стек системных шрифтов</h2>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">1. Быстрый</h2>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">2. Отличная поддержка</h2>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">3. Привычный</h2>
+    </section>
+
+    <section class="slide">
+      <h2>Sans-serif</h2>
+
+      <pre>
+        <code>font-family: -apple-system, BlinkMacSystemFont, avenir next,</code>
+        <code>    avenir, segoe ui, helvetica neue, helvetica, Cantarell,</code>
+        <code>    Ubuntu, roboto, noto, arial, sans-serif;</code>
+      </pre>
+    </section>
+
+    <section class="slide">
+      <h2>Serif</h2>
+
+      <pre>
+        <code>font-family: Iowan Old Style, Apple Garamond, Baskerville,</code>
+        <code>    Times New Roman, Droid Serif, Times, Source Serif Pro,</code>
+        <code>    serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;</code>
+      </pre>
+    </section>
+
+    <section class="slide">
+      <h2>Mono</h2>
+
+      <pre>
+        <code>font-family: Menlo, Consolas, Monaco, Liberation Mono,</code>
+        <code>    Lucida Console, monospace;</code>
+      </pre>
+    </section>
+
+    <section class="slide">
       <h2 class="shout">Изучайте популярные шрифты</h2>
     </section>
     <!-- google fonts не пояснять -->
@@ -384,6 +446,18 @@
       </h2>
     </section>
 
+    <section class="slide clear">
+      <img class="cover h" src="pictures/scroll.avif" alt="" />
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">60 fps</h2>
+    </section>
+
+    <section class="slide clear">
+      <img class="cover w" src="pictures/pipeline-1.png" alt="" style="width: 90%" />
+    </section>
+
     <section class="slide">
       <h2 class="shout">Минимум вычислений на скрол</h2>
     </section>
@@ -392,6 +466,41 @@
       <h2 class="shout brand elevated">
         <span style="font-size: 1.5em">8</span><br />Играться с курсором
       </h2>
+    </section>
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/changecur.png" alt="" />
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">Не могу найти курсор</h2>
+    </section>
+
+    <section class="slide">
+      <h2>Медленно (1)</h2>
+
+      <pre>
+        <code>body { cursor: url(‘YourCursorImage.png'), auto; }</code>
+      </pre>
+    </section>
+
+    <section class="slide">
+      <h2>Медленно (2)</h2>
+
+      <pre>
+        <code>body { cursor: none; }</code>
+        <code>.pointer { width: 12px; height: 12px; background: red; }</code>
+        <code> </code>
+        <code>window.addEventListener('mousemove', moveCursor);</code>
+      </pre>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">Минимум вычислений на скрол</h2>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">Минимум вычислений на скрол</h2>
     </section>
 
     <section class="slide">
