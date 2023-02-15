@@ -1,7 +1,8 @@
 <!-- https://pepelsbey.net/pres/devs-laugh/ -->
 <!-- добавить скрепку из MS (идея)? -->
 <!-- раскидать практические советы -->
-
+<!-- Ставить шутку про Фиксиков -->
+<!-- показать боль! -->
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -36,11 +37,12 @@
         background-color: #ff0000;
       }
 
+      /* mish x ozontech */
       .slide {
         padding-top: 51px;
         background-image: url("pictures/ozontech.png"), url("pictures/slide-cover.png");
         background-repeat: no-repeat, no-repeat;
-        background-size: 135px, 100%;
+        background-size: 100px, 100%;
         background-position: 100px calc(100% - 17px), center;
       }
 
@@ -205,7 +207,14 @@
       </h2>
     </section>
 
-    <!-- Нарыть статистику по Figma -->
+    <!-- https://uxtools.co/survey/2022/ui-design -->
+    <section class="slide clear">
+      <img class="cover h" src="pictures/figma_stat.png" alt="" style="height: 90%" />
+    </section>
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/google_chrome.png" alt="" style="height: 90%" />
+    </section>
 
     <section class="slide">
       <h2 class="shout">Представляйте конечную цель</h2>
@@ -270,10 +279,22 @@
       <img class="cover h" src="pictures/poslednij-chelovek-na-zemle_1633118313.jpg" alt="" />
     </section>
 
+    <section class="slide clear">
+      <img
+        class="cover w"
+        src="pictures/60e4ca1953c5c58dc46d6861_Complicated figma file.jpg"
+        alt=""
+      />
+    </section>
+
     <!-- показать как плохо -->
 
     <!-- дизайн долг -->
     <!-- структура макетов (использовать эмоджи) -->
+
+    <section class="slide">
+      <h2 class="shout">Смотрят чаще, чем редактируют</h2>
+    </section>
 
     <section class="slide clear" style="background-color: #fafafa">
       <img class="cover h" src="pictures/rb-pages-1.png" alt="" />
@@ -304,6 +325,18 @@
     </section>
 
     <section class="slide">
+      <img class="cover h" src="pictures/figma-super-tidy.png" alt="" />
+    </section>
+
+    <section class="slide">
+      <img class="cover h" src="pictures/figma_design_lint.png" alt="" />
+    </section>
+
+    <section class="slide">
+      <img class="cover h" src="pictures/figma-clean-document.png" alt="" />
+    </section>
+
+    <section class="slide">
       <h2 class="shout">Рефакторите макеты</h2>
     </section>
 
@@ -329,6 +362,7 @@
 
     <!-- Сколько состояний кнопок/инпутов бывает? -->
     <!-- Больше всего бесит, когда компонент можно переисопльзовать, но в макетах большое количество мелких отличий...(отступы, размеры шрифта и тд) -->
+    <!-- состояние - компонент -->
 
     <section class="slide">
       <h2 class="shout">Используйте компоненты</h2>
@@ -343,12 +377,25 @@
     <!-- о чём забывает дизайнер, который рисует много адаптивов -->
 
     <section class="slide">
-      <h2 class="shout">Веб адаптивен по-умолчанию</h2>
+      <h2 class="shout">Веб адаптивен <nobr>по-умолчанию</nobr></h2>
     </section>
 
     <!-- Сколько размеров экранов бывает -->
+    <!-- отрисовывайте брейкпойнты, где что-то меняется ПОКАЗАТЬ -->
     <section class="slide">
       <h2 class="shout">Сколько брейкпойнтов?</h2>
+    </section>
+
+    <section class="slide clear" style="background-color: #fafafa">
+      <img class="cover w" src="pictures/rb-7-adaptives.png" alt="" />
+    </section>
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/screen_sizes_map.png" alt="" />
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">Только то, что изменяется</h2>
     </section>
 
     <section class="slide clear">
@@ -363,10 +410,13 @@
       <img class="cover h" src="pictures/container-query-examples.png" alt="" />
     </section>
 
+    <!-- mobile first используется -->
+    <!-- mobile first - не панацея  -->
     <section class="slide clear" style="background-color: #b1e3d1">
       <img class="cover w" src="pictures/partners_blog_progressive_enhancement_hero.webp" alt="" />
     </section>
 
+    <!-- авто лейаут углубиться, дополнительного мясо -->
     <section class="slide clear">
       <img class="cover h" src="pictures/auto-layout-panel.png" alt="" />
     </section>
@@ -375,10 +425,8 @@
       <h2 class="shout">Продумывайте адаптив</h2>
     </section>
 
-    <!-- mobile first используется -->
     <!-- auto layout позволяет делать респонсив -->
-    <!-- progressive enchancment слайд -->
-    <!-- вопросы: кто использует autolayout? сколько брейкпойнтов вы используете? -->
+    <!-- вопросы: сколько брейкпойнтов вы используете? -->
     <!-- сайт адаптивен по-дефолту -->
     <!-- Размер контента (дизайнер отвечает: Не должно быть длинным) -->
 
@@ -388,6 +436,7 @@
       </h2>
     </section>
 
+    <!-- вставить картинкой -->
     <section class="slide">
       <h2 class="shout">Закон Якоба</h2>
     </section>
@@ -408,6 +457,7 @@
       <h2 class="shout">Изучайте платформу</h2>
     </section>
 
+    <!-- шрифты - банально -->
     <section class="slide">
       <h2 class="shout brand elevated">
         <span style="font-size: 1.5em">6</span><br />Выбирать редкие шрифты
@@ -440,6 +490,7 @@
     <section class="slide">
       <h2 class="shout">Стек системных шрифтов</h2>
     </section>
+    <!-- КОРОЧЕ! -->
 
     <section class="slide">
       <h2 class="shout">1. Быстрый</h2>
@@ -510,7 +561,8 @@
       <h2 class="shout">Минимум вычислений на&nbsp;скрол</h2>
     </section>
 
-    <section class="slide">
+    <!-- курсоры - многие осознанно так делают -->
+    <!-- <section class="slide">
       <h2 class="shout brand elevated">
         <span style="font-size: 1.5em">8</span><br />Играться с&nbsp;курсором
       </h2>
@@ -541,13 +593,15 @@
         <code class="next"> </code>
         <code class="next"><mark>window.addEventListener('mousemove', moveCursor)</mark></code>
       </pre>
-    </section>
+    </section> -->
 
     <section class="slide">
       <h2 class="shout brand elevated">
         <span style="font-size: 1.5em">9</span><br />Не&nbsp;готовить иконки
       </h2>
     </section>
+
+    <!-- надо в SVG (вектор) -->
 
     <section class="slide">
       <h2 class="shout">Готовьте иконки</h2>
@@ -559,13 +613,26 @@
       </h2>
     </section>
 
+    <section class="slide clear">
+      <img class="cover h" src="pictures/empty-states.png" alt="" />
+    </section>
+
+    <section class="slide clear" style="background-color: #fafafa">
+      <img class="place l next" src="pictures/rb-like.png" height="100%" alt="" />
+      <img class="place next" src="pictures/rb-subscriptions.png" height="100%" alt="" />
+      <img class="place r next" src="pictures/rb-unauth.png" height="100%" alt="" />
+    </section>
+
     <!-- Экраны ошибок -->
     <!-- Пустые состояния -->
+    <!-- corner-кейсы -->
 
+    <!-- чеклист в notion, пришлём письмо -->
     <section class="slide">
       <h2 class="shout">Сверьтесь с чеклистом</h2>
     </section>
 
+    <!-- картинку психопата -->
     <section class="slide">
       <h2 class="shout small">
         Проектируйте макеты, будто верстать их будет склонный к&nbsp;насилию психопат, который
